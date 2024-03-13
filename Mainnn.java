@@ -15,7 +15,7 @@ public class Mainnn {
         }
         for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {
             if (entry.getValue() > 1) {
-                System.out.println(entry.getKey() + " встречается " + entry.getValue() + " раз");
+                System.out.println(entry.getKey() + " встречается " + entry.getValue() + " раза");
             }
         }
     }
